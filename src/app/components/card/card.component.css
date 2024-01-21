@@ -1,0 +1,42 @@
+.container-card {
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.container-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.tags {
+  top: 20px;
+  left: 30px;
+  border-radius: 30px;
+  padding: .3rem .8rem;
+  border: 1px solid #fff;
+  color: #fff;
+  position: absolute;
+}
+
+.tags span {
+  margin-right: .6rem;
+}
+
+.title {
+  bottom: 30px;
+  left: 30px;
+  padding: .2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.button {
+  right: 30px;
+  top: 20px;
+  position: absolute;
+}

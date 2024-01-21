@@ -1,0 +1,28 @@
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul-navbar li {
+  margin-right: 4rem;
+}
+
+.ul-navbar li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.container-navbar li {
+  list-style-type: none;
+}
+
+#indicator {
+  height: 3px;
+  background-color: red;
+  transition: transform 0.3s ease;
+}

@@ -1,0 +1,8 @@
+.container-button button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+}

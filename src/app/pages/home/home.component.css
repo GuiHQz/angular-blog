@@ -1,0 +1,13 @@
+.navbar {
+  margin: 2rem;
+}
+
+.main-title {
+  margin-left: 3rem;
+}
+
+.articles {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
