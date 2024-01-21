@@ -1,6 +1,12 @@
 .container-navbar {
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
+  background-color: #000;
+}
+
+.container-navbar h3 {
+  color: #fff
 }
 
 .ul-navbar {
@@ -12,11 +18,16 @@
   margin-right: 4rem;
 }
 
-.ul-navbar li:hover {
+.ul-navbar a:hover {
   color: red;
   cursor: pointer;
 }
 
 .container-navbar li {
   list-style-type: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }

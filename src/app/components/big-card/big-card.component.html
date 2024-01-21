@@ -1,4 +1,4 @@
-<div class="container-big-card">
+<div [routerLink]="['content', id]" class="container-big-card">
   <div class="card-details">
     <div class="date">
       <h6>19/01/2024</h6>
@@ -6,15 +6,14 @@
     <div class="tags">
       <h6>Esportes</h6>
     </div>
-    <div class="description"><span>{{ cardDescription }}</span></div>
+    <div class="description">
+      <span>{{ cardDescription }}</span>
+    </div>
     <div class="button">
       <app-button></app-button>
     </div>
   </div>
   <div>
-    <img
-      src="{{ photoCover }}"
-      alt="soccer-image"
-    />
+    <img src="{{ photoCover }}" alt="soccer-image" />
   </div>
 </div>

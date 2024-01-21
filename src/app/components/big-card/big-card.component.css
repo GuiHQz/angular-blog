@@ -4,6 +4,7 @@
   height: 500px;
   border-radius: 20px;
   display: flex;
+  cursor: pointer;
   overflow: hidden;
   position: relative;
   justify-content: center;
